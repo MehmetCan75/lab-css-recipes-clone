@@ -22,8 +22,10 @@ header p {
 
 
 #SEC {
-        padding: 0 20%;
+        margin-right: 300px;
+        margin-left: 300px;
         flex-flow: column; 
+
 
              
 }
@@ -31,7 +33,6 @@ header p {
 .section1 {
         display: flex;
         justify-content: center;
-        align-items: center;
         margin-top: 50px;
         font-size: 1.4em;
         width: 800px;
@@ -49,21 +50,16 @@ header p {
         border-top: 0.5px solid;
 }
 
-.ul {
+ul {
         list-style-type: "- ";
 }
 
 
-.ol {
+ol {
         list-style-type: none;
         counter-reset: Compteliste;
 }
-.ol li:before{
+ol li:before{
         counter-increment: Compteliste 1;
         content: counter(Compteliste) ")";
 }
-
-hr {
-        width: 870px;
-}
-        
