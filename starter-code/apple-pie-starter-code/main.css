@@ -1,6 +1,7 @@
 body {
         font-family: Arial, Helvetica, sans-serif;
         margin:0;
+        height: 100%;
 }
 
 
@@ -20,28 +21,32 @@ header p {
 }
 
 
-.section1, .section2,.section3 {
+#SEC {
         padding: 0 20%;
-        flex-flow: column;
-        
-}
+        flex-flow: column; 
 
+             
+}
 
 .section1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 30px;
+        margin-top: 50px;
+        font-size: 1.4em;
+        width: 800px;
+}
+
+.img2 img{
+        width: 330px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
 }
 
 .section2, .section3 {
-        display: flex;
-        justify-content: flex-start;
-}
-
-.img2 {
-        display: flex;
-        justify-content: center;
+        border-top: 0.5px solid;
 }
 
 .ul {
@@ -59,7 +64,6 @@ header p {
 }
 
 hr {
-        width: 1000px;
+        width: 870px;
 }
-        
         
